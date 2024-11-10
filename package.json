@@ -1,5 +1,5 @@
 {
-  "name": "storybook-ui-kit",
+  "name": "venfran-storybook-ui-kit",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/storybook-ui-kit.js",
