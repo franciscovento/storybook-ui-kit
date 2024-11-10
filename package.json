@@ -1,6 +1,6 @@
 {
   "name": "venfran-storybook-ui-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/storybook-ui-kit.js",
   "types": "./dist/storybook-ui-kit.d.ts",
@@ -8,6 +8,10 @@
     ".": {
       "import": "./dist/storybook-ui-kit.js",
       "export": "./dist/storybook-ui-kit.umd.cjs"
+    },
+    "./index.d.ts": {
+      "import": "./dist/index.d.ts", 
+      "require": "./dist/index.d.ts"
     }
   },
   "publishConfig": {
