@@ -1,3 +1,1 @@
-export const fn = (someParameter: string):void => {
-  console.log(someParameter)
-}
+export * from './ui'

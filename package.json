@@ -2,6 +2,20 @@
   "name": "storybook-ui-kit",
   "version": "0.0.1",
   "type": "module",
+  "main": "./dist/storybook-ui-kit.js",
+  "types": "./dist/storybook-ui-kit.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/storybook-ui-kit.js",
+      "export": "./dist/storybook-ui-kit.umd.cjs"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
