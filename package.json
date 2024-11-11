@@ -1,17 +1,14 @@
 {
   "name": "venfran-storybook-ui-kit",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
-  "main": "./dist/storybook-ui-kit.js",
-  "types": "./dist/storybook-ui-kit.d.ts",
+  "main": "dist/venfran-storybook-ui-kit.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/storybook-ui-kit.js",
-      "export": "./dist/storybook-ui-kit.umd.cjs"
-    },
-    "./index.d.ts": {
-      "import": "./dist/index.d.ts", 
-      "require": "./dist/index.d.ts"
+      "import": "./dist/venfran-storybook-ui-kit.js",
+      "export": "./dist/venfran-storybook-ui-kit.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "publishConfig": {
